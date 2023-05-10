@@ -1,40 +1,87 @@
 html {
-    background-color: #00539f;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
+    background-color: rgb(91, 104, 216);
+}
+
+/* body {
     width: 600px;
-    /* width: 600px; forces the body to always be 600 pixels wide */
+    /* width: 600px; forces the body to always be 600 pixels wide 
     margin: 0 auto;
     /*When you set two values on a property like margin or padding,
     the first value affects the element's top and bottom side (setting it to 0 in this case);
     the second value affects the left and right side. (Here, auto is a special value that 
-    divides the available horizontal space evenly between left and right). */
+    divides the available horizontal space evenly between left and right). 
     background-color: rgb(91, 104, 216);
     padding: 0 20px 20px 20px;
     /*The goal is to put some space around the content. 
     In this example, there is no padding on the top of the body, and 20 pixels on the right, 
-    bottom and left. The values set top, right, bottom, left, in that order.*/
+    bottom and left. The values set top, right, bottom, left, in that order.
     border: 5px solid black;
     /*This sets values for the width, style and color of the 
-    border. In this case, it's a five-pixel–wide, solid black border, on all sides of the body.*/
+    border. In this case, it's a five-pixel–wide, solid black border, on all sides of the body.
+} */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: #62a3ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-h1 {
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: rgb(91, 104, 216);
+}
+
+/* h1 {
     font-size: 40px;
     text-align: center;
     margin: 0;
     padding: 20px 0;
     color: #62a3ff;
-    text-shadow: 3px 5px 2px black;
-    font-family: 'Rubik', sans-serif;
-    /* text-shadow: 3px 5px 2px black; horizontal offset, vertical offset, blur */
+    text-shadow: 3px 5px 2px black; */
+/* text-shadow: 3px 5px 2px black; horizontal offset, vertical offset, blur 
+ } */
+body {
+    padding: 60px 0 0 0;
 }
 
-p,
-ul {
+p {
+    padding: 0 10%;
     font-size: 20px;
     /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: 'Rubik', sans-serif;
+    /* this should be the rest of the output you got from Google Fonts */
+}
+
+ul {
+    padding: 0 15%;
+    font-size: 20px;
+    /* px means "pixels": the base font size is now 10 pixels high */
     /* this should be the rest of the output you got from Google Fonts */
 }
