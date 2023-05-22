@@ -1,2 +1,5 @@
 # personal
-### work in progress...
+### TODO: 
+loadup animation
+image
+pages
