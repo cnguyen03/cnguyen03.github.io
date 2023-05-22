@@ -1,5 +1,5 @@
 # personal
 ### TODO: 
-loadup animation
-image
-pages
+<br>loadup animation
+<br>image
+<br>pages
