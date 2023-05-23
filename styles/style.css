@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #193153;
+    background-color: #07162b;
     color: #DDE6ED;
 }
 
@@ -59,7 +59,7 @@ h3 {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #193153;
+    background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
@@ -93,6 +93,7 @@ h3 {
 .home {
     height: 100vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 10%;
 }
@@ -115,7 +116,7 @@ h3 {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #193153;
+    background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
 }
@@ -141,7 +142,7 @@ h3 {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #193153;
+    background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
 }
@@ -161,7 +162,7 @@ h3 {
     right: 0;
     width: 100%;
     height: 110%;
-    background: #193153;
+    background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
     z-index: 2;
@@ -210,13 +211,51 @@ h3 {
     left: 0;
     width: 0;
     height: 100%;
-    background: #081b29;
+    background: #07162b;
     z-index: -1;
     transition: .5s;
 }
 
 .button-box a:hover::before {
     width: 100%;
+}
+
+.home-image {
+    min-width: 400px;
+    height: 400px;
+    /* max-width: 1000px; */
+    /* margin-left: 400px; */
+    /* font-size: 48px; */
+
+}
+
+.home-image .image-circle {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#094dac, #329ada);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-circle .image {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    background: red;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.image img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 380px;
+    height: 380px;
+    object-fit: cover;
 }
 
 /* KEYFRAMES ANIMATION */
