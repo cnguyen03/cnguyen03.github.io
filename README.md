@@ -1,6 +1,7 @@
 # personal
+### Features and Implementations:
+<br> Self-Portrait
+<br> Loadup Text Animation 
 ### TODO: 
-<br>loadup animation
-<br>image?
 <br>pages
 <br>portfolio of projects
