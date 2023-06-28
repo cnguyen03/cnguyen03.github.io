@@ -86,6 +86,7 @@ h2 {
     align-items: center;
     position: relative;
     min-height: 500px;
+    min-width: 1080px;
 }
 
 .card {
