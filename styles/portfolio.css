@@ -92,20 +92,22 @@ h2 {
     height: 300px;
     width: 270px;
     padding: 20px 35px;
-    background: #0b2345;
+    background: #07162b;
     border-radius: 20px;
     margin: 15px;
     margin-top: 150px;
     position: relative;
     overflow: hidden;
     text-align: center;
+    border: 1px solid #329ada;
+    border-width: 1px 1px 1px 1px;
 }
 
 .card i {
     font-size: 50px;
-    display: block;
+    display: inline-block;
     text-align: center;
-    margin: 25px 0px;
+    margin: 25px 10px;
     color: #329ada;
 }
 
