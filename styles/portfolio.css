@@ -66,27 +66,19 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     color: #DDE6ED;
-}
-
-.title h2::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 600px;
-    width: 100%;
-    height: 100%;
-    background: #07162b;
-    animation: showRight 1.5s ease forwards;
-    animation-delay: .1s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .2s;
 }
 
 .box {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
     min-height: 500px;
-    min-width: 1080px;
+    min-width: 970px;
 }
 
 .card {
@@ -102,6 +94,9 @@ h2 {
     text-align: center;
     border: 1px solid #329ada;
     border-width: 1px 1px 1px 1px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.7s + (.2s * var(--i)));
 }
 
 .card i {
@@ -118,13 +113,24 @@ h3 {
     margin-bottom: 15px;
 }
 
-/* KEYFRAMES ANIMATION */
-@keyframes showRight {
-    100% {
-        width: 0;
+/* RESOLUTION RESPONSE */
+@media (max-width: 960px) {
+    .box {
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 500px;
+    }
+
+    .color {
+        opacity: 0;
+    }
+
+    .header {
+        background: #07162b;
     }
 }
 
+/* KEYFRAMES ANIMATION */
 @keyframes slideTop {
     0% {
         opacity: 0;
@@ -134,16 +140,6 @@ h3 {
     100% {
         opacity: 1;
         transform: translateY(0);
-    }
-}
-
-@keyframes circleRotate {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
     }
 }
 
