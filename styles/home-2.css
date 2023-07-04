@@ -36,7 +36,7 @@ h3 {
     color: #DDE6ED;
 }
 
-.logo::before {
+/* .logo::before {
     content: '';
     position: absolute;
     top: 0;
@@ -46,7 +46,7 @@ h3 {
     background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
-}
+} */
 
 .navbar a {
     display: inline-block;
@@ -56,9 +56,9 @@ h3 {
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
-    opacity: 0;
+    /* opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: calc(.2s * var(--i));
+    animation-delay: calc(.2s * var(--i)); */
 }
 
 .navbar a:hover,
@@ -106,7 +106,7 @@ h3 {
     line-height: 1.2;
 }
 
-.home-content h1::before {
+/* .home-content h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -116,7 +116,7 @@ h3 {
     background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
-}
+} */
 
 .home-content h3 {
     position: relative;
@@ -129,10 +129,9 @@ h3 {
     position: relative;
     font-size: 20px;
     margin: 20px 0 40px;
-
 }
 
-.home-content h3::before,
+/* .home-content h3::before,
 .home-content p::before {
     content: '';
     position: absolute;
@@ -143,7 +142,7 @@ h3 {
     background: #07162b;
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
-}
+} */
 
 .home-content .button-box {
     position: relative;
@@ -154,7 +153,7 @@ h3 {
     height: 50px;
 }
 
-.home-content .button-box::before {
+/* .home-content .button-box::before {
     content: '';
     position: absolute;
     top: 0;
@@ -165,7 +164,7 @@ h3 {
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
     z-index: 2;
-}
+} */
 
 .button-box a {
     position: relative;
@@ -230,7 +229,7 @@ h3 {
     /* font-size: 48px; */
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 3s;
+    animation-delay: .5s;
 
 }
 
