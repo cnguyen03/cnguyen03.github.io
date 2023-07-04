@@ -4,8 +4,7 @@
 <br> Loadup Element Animation 
 <br> Home / Projects page(s)
 <br> Projects showcase
-<br> Other aesthetics
+<br> Projects Page is now responsive
+<br> Other aesthetics such as icons
 ### TODO / Future Implementations: 
 <br> Responsiveness to adapt to different resolutions
-<br> Possible revamp to projects page 
-<br> Possible switch to one page entirely
