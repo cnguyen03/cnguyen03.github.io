@@ -80,7 +80,7 @@ h2 {
     margin-top: 150px;
     /* Adjust the width and margin */
     min-height: 500px;
-    min-width: 970px;
+    /* min-width: 970px; */
 }
 
 .card {
@@ -121,7 +121,7 @@ h3 {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        min-width: 500px;
+        /* min-width: 500px; */
     }
 
     .color {
