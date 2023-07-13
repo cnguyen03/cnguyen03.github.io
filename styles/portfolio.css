@@ -20,7 +20,7 @@ h2 {
     left: 0;
     width: 80%;
     padding: 20px 10%;
-    background: transparent;
+    background: #07162b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,14 +50,14 @@ h2 {
     color: #329ada;
 }
 
-.color {
+/* .color {
     height: 1000px;
     width: 1000px;
     background-image: radial-gradient(closest-side, #052e47, #07162b);
     position: absolute;
     top: -470px;
     left: 60%;
-}
+} */
 
 .title h2 {
     text-align: center;
@@ -122,14 +122,6 @@ h3 {
         flex-wrap: wrap;
         align-items: center;
         /* min-width: 500px; */
-    }
-
-    .color {
-        opacity: 0;
-    }
-
-    .header {
-        background: #07162b;
     }
 }
 

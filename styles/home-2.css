@@ -21,7 +21,7 @@ h3 {
     left: 0;
     width: 80%;
     padding: 20px 10%;
-    background: transparent;
+    background: #07162b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,14 +86,14 @@ h3 {
     padding: 0 10%;
 }
 
-.color {
+/* .color {
     height: 1000px;
     width: 1000px;
     background-image: radial-gradient(closest-side, #052e47, #07162b);
     position: absolute;
     top: -470px;
     left: 60%;
-}
+} */
 
 .home-content {
     max-width: 600px;
@@ -288,12 +288,7 @@ h3 {
 }
 
 /* RESOLUTION RESPONSE */
-@media (max-width: 960px) {
-    .color {
-        opacity: 0;
-    }
-
-}
+@media (max-width: 960px) {}
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
