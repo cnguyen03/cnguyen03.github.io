@@ -1,5 +1,6 @@
 # personal
 ### Features and Implementations:
+<br>NOW LIVE AT https://www.cnguyendev.com
 <br> Self-Portrait
 <br> Loadup Element Animation 
 <br> Home / Projects page(s)
