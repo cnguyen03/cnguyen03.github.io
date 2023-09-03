@@ -11,3 +11,4 @@
 <br> Responsiveness to adapt to different resolutions
 <br> Enlarge animation when cursor hovers project boxes
 <br> Include Resume / CV
+<br> Link repositories to corresponding projects
