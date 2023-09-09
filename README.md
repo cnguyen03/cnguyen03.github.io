@@ -1,14 +1,12 @@
-# personal
-### Features and Implementations:
-<br>NOW LIVE AT https://www.cnguyendev.com
+# www.cnguyendev.com
+The entire source code of my personal website and portfolio made with HTML and CSS.
+Please do not use any large snippets of the code without my permission. 
+## Some notable features:
 <br> Self-Portrait
 <br> Loadup Element Animation 
 <br> Home / Projects page(s)
 <br> Projects showcase
 <br> Projects Page is now responsive
-<br> Other aesthetics such as icons
-### TODO / Future Implementations: 
-<br> Responsiveness to adapt to different resolutions
-<br> Enlarge animation when cursor hovers project boxes
-<br> Include Resume / CV
-<br> Link repositories to corresponding projects
+<br> Other aesthetics such as beautiful colors, icons, and fonts
+<br> 
+<br> Again, this repository may viewed but not be replicated without my permission. Thank you for your understanding.
