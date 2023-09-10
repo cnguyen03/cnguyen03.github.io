@@ -1,4 +1,4 @@
-# www.cnguyendev.com
+# cnguyendev.com
 The entire source code of my personal website and portfolio made with HTML and CSS.
 Please do not use any large snippets of the code without my permission. 
 ## Some notable features:
