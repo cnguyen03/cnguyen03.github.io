@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'quarter-spanish-white': '#f7f1e3',
+        'cashmere': '#e5c89f',
+        'tan': '#d1b07b',
+        'limed-oak': '#a77d52',
+        'mondo': '#4a3b30'
       },
       fontFamily: {
         playfair: ['var(--font-playfair)', 'serif'],
