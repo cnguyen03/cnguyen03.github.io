@@ -4,7 +4,7 @@ export default function Projects() {
     const navigatorArray = ["Python", "Flask", "OpenStreetMap", "FlightAware API", "ClaudeAI API"];
     const searchEngineArray = ["React", "Node", "Python", "Flask", "OpenAI API"];
     const tldrifyArray = ["React", "Next", "Tailwind CSS", "Flask", "Python", "HuggingFace"];
-    const portfolioArray = ["React", "Next", "Tailwind CSS", "HTML", "CSS", "TypeScript", "Vercel"];
+    const portfolioArray = ["React", "Next", "HTML", "CSS", "TypeScript", "Vercel"];
     const messengerArray = ["Python", "Tkinter"]
     const diabetesClassifierArray = ["Python", "Sci-kit", "K-Nearest-Neighbors", "Logistic Regression", "Neural Network", "Decision Trees"];
     return (
