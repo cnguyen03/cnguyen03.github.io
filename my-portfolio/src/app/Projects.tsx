@@ -4,10 +4,10 @@ export default function Projects() {
     const navigatorArray = ["Python", "Flask", "OpenStreetMap", "FlightAware API", "ClaudeAI API"];
     const searchEngineArray = ["React", "Node", "Python", "Flask", "OpenAI API"];
     const tldrifyArray = ["React", "Next", "Tailwind CSS", "Flask", "Python", "HuggingFace"];
-    const portfolioArray = ["React", "Next", "HTML", "CSS", "TypeScript", "Vercel"];
+    const portfolioArray = ["React", "Next", "Tailwind CSS", "TypeScript", "Vercel"];
     const messengerArray = ["Python", "Tkinter"]
     const diabetesClassifierArray = ["Python", "Sci-kit", "K-Nearest-Neighbors", "Logistic Regression", "Neural Network", "Decision Trees"];
-    const githubCalendarArray = ["React", "Next", "Tailwind CSS", "GitHub GraphQL API"]
+    const githubCalendarArray = ["React", "Next", "Tailwind CSS", "TypeScript", "GitHub GraphQL API"]
     return (
         <div>
             <Project name="GitHub Contribution Calendar Extension" link="https://github.com/cnguyen03/github_calendar" description="A Chrome extension that displays your GitHub contributions calendar" stack={githubCalendarArray} startMonth="March" startYear="2025" endMonth="April" endYear="2025"></Project>
