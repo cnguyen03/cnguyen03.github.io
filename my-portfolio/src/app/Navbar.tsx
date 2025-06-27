@@ -87,7 +87,7 @@ export default function Navbar({
                 </div>
                 <div className="flex items-center flex-col">
                 <div className="mx-4 cursor-pointer relative group">
-                    <a href="https://drive.google.com/file/d/1Cbwx-PAUx4_x9TfWvbXXeFwe5lnCawij/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+                    <a href="https://www.overleaf.com/read/mygkgshpxxjx#642b51" target="_blank" rel="noopener noreferrer">resume</a>
                     <div className="absolute left-0 right-0 mx-auto mt-1 h-1 w-1 bg-limed-oak opacity-0 group-hover:opacity-100 transition-opacity rounded-full"></div>
                 </div>
                 </div>
