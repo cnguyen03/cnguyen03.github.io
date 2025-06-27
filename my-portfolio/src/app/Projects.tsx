@@ -10,7 +10,7 @@ export default function Projects() {
     const githubCalendarArray = ["React", "Next", "Tailwind CSS", "TypeScript", "GitHub GraphQL API"]
     return (
         <div>
-            <Project name="GitHub Contribution Calendar Extension" link="https://github.com/cnguyen03/github_calendar" description="A Chrome extension that displays your GitHub contributions calendar" stack={githubCalendarArray} startMonth="March" startYear="2025" endMonth="Present" endYear=""></Project>
+            <Project name="GitHub Contribution Calendar Extension" link="https://github.com/cnguyen03/github_calendar" description="A Chrome extension that displays your GitHub contributions calendar" stack={githubCalendarArray} startMonth="March" startYear="2025" endMonth="April" endYear="2025"></Project>
             <Project name="Calvin's Portfolio" link="https://github.com/cnguyen03/cnguyen03.github.io" description="My new portfolio website!" stack={portfolioArray} startMonth="December" startYear="2024" endMonth="December" endYear="2024"></Project>
             <Project name="Foshow" link="https://github.com/uci-jherold2-fall24-cs122b/2024-fall-cs-122b-foshow" description="Full-stack architecture of a movie catalog application, supporting ~20 medium features all protected by various security layers" stack={foshowArray} startMonth="September" startYear="2024" endMonth="December" endYear="2024"></Project>
             <Project name="Flight POI Navigator" link="" description="Novel flight navigator at Collins Aerospace 2024 FlightAware Hackathon, generating optimal flight paths and inferring POIs using user-provided airport names and declared locations" stack={navigatorArray} startMonth="November" startYear="2024" endMonth="November" endYear="2024"></Project>
